@@ -1,0 +1,15 @@
+# Terraform state – never commit this
+*.tfstate
+*.tfstate.*
+
+# Downloaded provider plug-ins
+.terraform/
+.terraform.lock.hcl
+
+# Logs
+crash.log
+*.log
+
+# Terraform config files with secrets
+.terraformrc
+terraform.rc
