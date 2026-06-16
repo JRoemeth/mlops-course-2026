@@ -1,0 +1,15 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Downloaded provider plug-ins and modules
+.terraform/
+.terraform.lock.hcl
+
+# Logs
+crash.log
+*.log
+
+# Config files that may hold secrets
+.terraformrc
+terraform.rc
