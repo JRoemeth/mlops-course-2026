@@ -6,3 +6,16 @@ s3_buckets = [
     tags = {}
   }
 ]
+
+ecr_repositories = [
+  {
+    key = "mlops-course-app"
+    image_tag_mutability = "MUTABLE"
+    image_scanning_configuration = [
+      {
+        scan_on_push = true
+      }
+    ]
+    tags = {}
+  }
+]

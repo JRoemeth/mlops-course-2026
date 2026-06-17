@@ -20,3 +20,9 @@ variable "s3_buckets" {
   type        = list(any)
   default     = []
 }
+
+variable "ecr_repositories" {
+  description = "A list of ECR repositories"
+  type        = list(any)
+  default     = []
+}
