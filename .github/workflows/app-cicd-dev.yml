@@ -48,7 +48,7 @@ jobs:
       - name: Build, tag, and push docker image to ECR
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          REPOSITORY: mlops-course-app
+          REPOSITORY: ecr-mlops-course-app
           IMAGE_TAG: latest
         run: |
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
