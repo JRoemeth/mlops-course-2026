@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+pyyaml
+fastapi
+uvicorn
+dvc[s3]
+mlflow
+imbalanced-learn
